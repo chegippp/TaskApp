@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4383F4392D39518700C2F45C /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4383F4382D39518700C2F45C /* Task.swift */; };
 		43B9AD332D37F9230033CA59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B9AD322D37F9230033CA59 /* AppDelegate.swift */; };
 		43B9AD352D37F9230033CA59 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B9AD342D37F9230033CA59 /* SceneDelegate.swift */; };
 		43B9AD372D37F9230033CA59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B9AD362D37F9230033CA59 /* ViewController.swift */; };
@@ -19,7 +20,8 @@
 
 /* Begin PBXFileReference section */
 		29EEC17B89DB7D76715C01E4 /* Pods-taskApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taskApp.release.xcconfig"; path = "Target Support Files/Pods-taskApp/Pods-taskApp.release.xcconfig"; sourceTree = "<group>"; };
-		43B9AD2F2D37F9230033CA59 /* taskApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = taskApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4383F4382D39518700C2F45C /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		43B9AD2F2D37F9230033CA59 /* TaskApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43B9AD322D37F9230033CA59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		43B9AD342D37F9230033CA59 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		43B9AD362D37F9230033CA59 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -64,7 +66,7 @@
 		43B9AD262D37F9230033CA59 = {
 			isa = PBXGroup;
 			children = (
-				43B9AD312D37F9230033CA59 /* taskApp */,
+				43B9AD312D37F9230033CA59 /* TaskApp */,
 				43B9AD302D37F9230033CA59 /* Products */,
 				0083AAA4A377C8A9441EFA07 /* Pods */,
 				3A978F02F13B9088D1B19679 /* Frameworks */,
@@ -74,12 +76,12 @@
 		43B9AD302D37F9230033CA59 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				43B9AD2F2D37F9230033CA59 /* taskApp.app */,
+				43B9AD2F2D37F9230033CA59 /* TaskApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		43B9AD312D37F9230033CA59 /* taskApp */ = {
+		43B9AD312D37F9230033CA59 /* TaskApp */ = {
 			isa = PBXGroup;
 			children = (
 				43B9AD322D37F9230033CA59 /* AppDelegate.swift */,
@@ -90,16 +92,17 @@
 				43B9AD3B2D37F92F0033CA59 /* Assets.xcassets */,
 				43B9AD3D2D37F92F0033CA59 /* LaunchScreen.storyboard */,
 				43B9AD402D37F92F0033CA59 /* Info.plist */,
+				4383F4382D39518700C2F45C /* Task.swift */,
 			);
-			path = taskApp;
+			path = TaskApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		43B9AD2E2D37F9230033CA59 /* taskApp */ = {
+		43B9AD2E2D37F9230033CA59 /* TaskApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 43B9AD432D37F92F0033CA59 /* Build configuration list for PBXNativeTarget "taskApp" */;
+			buildConfigurationList = 43B9AD432D37F92F0033CA59 /* Build configuration list for PBXNativeTarget "TaskApp" */;
 			buildPhases = (
 				8FF1C3BAA06E54FC93796FA7 /* [CP] Check Pods Manifest.lock */,
 				43B9AD2B2D37F9230033CA59 /* Sources */,
@@ -111,9 +114,9 @@
 			);
 			dependencies = (
 			);
-			name = taskApp;
+			name = TaskApp;
 			productName = taskApp;
-			productReference = 43B9AD2F2D37F9230033CA59 /* taskApp.app */;
+			productReference = 43B9AD2F2D37F9230033CA59 /* TaskApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -131,7 +134,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 43B9AD2A2D37F9230033CA59 /* Build configuration list for PBXProject "taskApp" */;
+			buildConfigurationList = 43B9AD2A2D37F9230033CA59 /* Build configuration list for PBXProject "TaskApp" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -144,7 +147,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				43B9AD2E2D37F9230033CA59 /* taskApp */,
+				43B9AD2E2D37F9230033CA59 /* TaskApp */,
 			);
 		};
 /* End PBXProject section */
@@ -211,6 +214,7 @@
 			files = (
 				43B9AD372D37F9230033CA59 /* ViewController.swift in Sources */,
 				43B9AD332D37F9230033CA59 /* AppDelegate.swift in Sources */,
+				4383F4392D39518700C2F45C /* Task.swift in Sources */,
 				43B9AD352D37F9230033CA59 /* SceneDelegate.swift in Sources */,
 				43B9AD472D3803DB0033CA59 /* InputViewController.swift in Sources */,
 			);
@@ -365,6 +369,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C9GDW4HQ93;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = taskApp/Info.plist;
@@ -397,6 +402,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C9GDW4HQ93;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = taskApp/Info.plist;
@@ -424,7 +430,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		43B9AD2A2D37F9230033CA59 /* Build configuration list for PBXProject "taskApp" */ = {
+		43B9AD2A2D37F9230033CA59 /* Build configuration list for PBXProject "TaskApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				43B9AD412D37F92F0033CA59 /* Debug */,
@@ -433,7 +439,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		43B9AD432D37F92F0033CA59 /* Build configuration list for PBXNativeTarget "taskApp" */ = {
+		43B9AD432D37F92F0033CA59 /* Build configuration list for PBXNativeTarget "TaskApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				43B9AD442D37F92F0033CA59 /* Debug */,
